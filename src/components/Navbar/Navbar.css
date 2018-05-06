@@ -1,0 +1,39 @@
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    top: 50px;
+    background: rgba(0, 0, 0, .5)
+}
+
+.navWrapper {
+    background: #282828;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 110px;
+    border-top: #222;
+    box-shadow: 0 1px 1px #363636 inset
+}
+
+.navWrapper li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    border-bottom: 1px dotted #333
+}
+
+.navWrapper li span {
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-left: 10px
+}
+
+.navWrapper li i {
+    color: #666;
+    font-size: 14px;
+    margin-right: 10px
+}
